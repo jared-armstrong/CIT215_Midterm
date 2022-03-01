@@ -80,7 +80,7 @@ function popUpMenu(i) {
     } else if (games[i].platform === "xbox") {
         this.platformType.innerHTML = games[i].platform;
         this.platformType.style.color = "green";
-    } else if (games[id].platform === "switch") {
+    } else if (games[i].platform === "switch") {
         this.platformType.innerHTML = games[i].platform;
         this.platformType.style.color = "red";
     }
